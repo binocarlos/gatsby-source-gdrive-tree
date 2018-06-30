@@ -22,7 +22,8 @@ exports.sourceNodes = (
     // create the node data using the factory
     // point at the parent node if given
     const node = nodeType(item, parentNode ? {
-      parent: parentNode.id
+      parent: parentNode.id,
+      parentName: parentNode ? parentNode.name : null,
     } : null)
 
     // register the node with gatsby
