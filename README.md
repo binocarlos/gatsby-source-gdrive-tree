@@ -1,4 +1,4 @@
-# gatsby-source-google-drive
+# gatsby-source-gdrive-tree
 
 A gatsby source plugin that downloads the contents of a google drive folder recursivly with document and spreadsheet contents extracted.
 
@@ -23,7 +23,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-source-google-drive',
+      resolve: 'gatsby-source-gdrive-tree',
       options: {
         folderId: process.env.GOOGLE_DRIVE_FOLDER_ID,
         serviceAccountToken: require(process.env.GOOGLE_DRIVE_SERVICE_TOKEN_FILE)
