@@ -5,7 +5,7 @@ A gatsby source plugin that downloads the contents of a google drive folder recu
 ## install
 
 ```bash
-npm install --save gatsby-source-google-drive
+npm install --save gatsby-source-gdrive-tree
 ```
 
 ## usage
