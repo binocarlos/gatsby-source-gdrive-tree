@@ -6,7 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "gatsby-node-helpers": "^0.3.0",
-    "gdrive-tree": "^1.1.0"
+    "gdrive-tree": "^1.2.0"
   },
   "keywords": [
     "google drive",
