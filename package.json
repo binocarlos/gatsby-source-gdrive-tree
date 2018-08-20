@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-gdrive-tree",
   "description": "A gatsby source plugin that downloads the contents of a google drive folder recursivly with document and spreadsheet contents extracted.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Kai Davenport <kaiyadavenport@gmail.com>",
   "main": "index.js",
   "dependencies": {
