@@ -27,9 +27,11 @@ exports.sourceNodes = (
     const nodeType = NODE_TYPES[item.mimeType]
     if(!nodeType) throw new Error(`unknown data mimeType: ${item.mimeType} - id: ${item.id} - name: ${item.name}`)
 
-    item.nocodeData = Object.assign({
-      noCode: true,
+    const nocodeDataRaw = Object.assign({
+      _noCode: true,
     }, _nodecode_data[item.id])
+
+    item.nocodeData = JSON.stringify(nocodeDataRaw)
 
     // create the node data using the factory
     // point at the parent node if given
